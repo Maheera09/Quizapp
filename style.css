@@ -1,0 +1,22 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    /* The box-sizing property allows us to include the padding and border in an element's total width and height. 
+    If you set box-sizing: border-box; on an element, padding and border are included in the width and height */
+}
+body {
+    background-color: rgb(146, 0, 0);
+    display: flex; /* Use Flexbox for centering */
+    justify-content: center; /* Horizontally center the .canvas div */
+    align-items: center; /* Vertically center the .canvas div */
+    height: 100vh;
+}
+.canvas {
+    background-color: white;
+    width: 60%;
+    min-height: 60vh;
+    margin: auto;
+    border-radius: 30px;
+    
+}
