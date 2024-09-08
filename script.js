@@ -26,7 +26,7 @@ const question = [
 ]
 let index=0
 let total = question.length
-let right = 0, wrong =0
+let right = 0, wrong = 0
 const heading = document.querySelector('#heading')
 const optionInput = document.querySelectorAll(".options")
 const btn = document.querySelector('.btn')
@@ -44,9 +44,6 @@ optionInput[2].nextElementSibling.innerText = data.c
 optionInput[3].nextElementSibling.innerText = data.d
 }
 
-// const submitQuiz = ()=>{
-    
-// }
 
 const getAnswer = ()=>{
     let answer
